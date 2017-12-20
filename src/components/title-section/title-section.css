@@ -1,0 +1,23 @@
+h1 {
+    font-family: DomaineDisplay-Semibold;
+    color: #006EB4;
+    font-size: 115px;
+}
+
+.about-box {
+    border-top: solid #006EB4 5px;
+    border-bottom: solid #006EB4 5px;
+}
+
+h2 {
+    font-family: DomaineDisplay-Semibold;
+    color: #006EB4;
+    font-size: 36px;
+}
+
+p {
+    font-family: DomaineText-Regular;
+    color: #006EB4;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
