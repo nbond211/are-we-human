@@ -1,7 +1,13 @@
+.video-displayer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .video-title-container {
     width: 480px;
     height: 360px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -12,5 +18,23 @@
     font-family: DomaineDisplay-Semibold;
     color: #006EB4;
     font-size: 36px;
+}
+
+.play-video {
+    font-family: DomaineText-Regular;
+    color: #006EB4;
+    font-size: 18px;
+    border: solid #006EB4 5px;
+    padding: 15px;
+    margin-top: 25px;
+    display: inline-block;
+    transition-duration: 0.5s;
+}
+
+.play-video:hover {
+    color: #fff;
+    border: solid #006EB4 5px;
+    background-color: #006EB4;
+    cursor: pointer;
 }
 
