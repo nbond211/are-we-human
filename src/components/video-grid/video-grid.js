@@ -29,7 +29,7 @@ class VideoGrid extends Component {
 
         return (
             <div class="row">
-                <div class="col-xs-offset-2 col-xs-8">
+                <div class="col-lg-offset-1 col-lg-10">
                     {videoRows.slice(0, this.state.rowIndex)}
                     <div class="row">
                         {videoRows.length > this.state.rowIndex &&

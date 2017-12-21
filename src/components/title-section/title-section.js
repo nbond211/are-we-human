@@ -5,10 +5,10 @@ class TitleSection extends Component {
     render() {
         return (
             <div class="row">
-                <div class="col-xs-offset-2 col-xs-8">
+                <div class="col-lg-offset-1 col-lg-10">
                     <h1>Are We Human<br/>Or Are We Chatbot?</h1>
                 </div>
-                <div class="col-xs-offset-2 col-xs-8 about-box">
+                <div class="col-lg-offset-1 col-lg-10 about-box">
                     <div class="row">
                         <div class="col-xs-6">
                             <h2>About</h2>
