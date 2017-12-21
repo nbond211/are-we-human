@@ -10,7 +10,7 @@ class VideoDisplyer extends Component {
             <div class="video-displayer">
                 {otherTitle &&
                     <div style={{display: isHovering ? 'flex' : 'none'}} class="video-title-container">
-                        <h4 class="video-title">{otherTitle}</h4>
+                        <h4 class="video-title animated fadeInUp">{otherTitle}</h4>
                     </div>
                 }
                 {video &&

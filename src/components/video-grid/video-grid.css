@@ -1,0 +1,28 @@
+.load-more-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.load-more-button {
+    background: none;
+    padding: 25px;
+    font-size: 18px;
+    font-family: DomaineText-Regular;
+    color: #006EB4;
+    border: solid 5px #006EB4;
+    cursor: pointer;
+    transition-duration: 0.5s
+}
+
+.load-more-button:hover {
+    background: #006EB4;
+    padding: 25px;
+    font-size: 18px;
+    font-family: DomaineText-Regular;
+    color: #fff;
+    border: solid 5px #006EB4;
+    cursor: pointer;
+}
